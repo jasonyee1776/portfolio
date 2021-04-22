@@ -1,5 +1,5 @@
 * {
-    background-color: bisque;
+    background-color: bisque !important;
     font-family: 'Raleway', sans-serif;
 
 }
@@ -9,8 +9,16 @@
     font-size: 50px;
 }
 
-li a:hover {
+div.row :hover {
     background-color: aliceblue;
+}
+
+div.row {
+    border-radius: 50;
+}
+
+div.row div.list-group-item, div.list-group-item a {
+    background-color: white !important;
 }
 
 
